@@ -1,6 +1,6 @@
 {
   "name": "react-tiny-drag-drop",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tiny React component for drag and drop support",
   "main": "./lib/react-tiny-drag-drop.js",
   "license": "MIT",
