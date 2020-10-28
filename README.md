@@ -27,7 +27,7 @@ export function App(props) {
 
 ##### \<Draggable\> Component
 Wrap around any object that should be draggable.
-| Parameter         | Type     | Description                                                        | Default           |
+| Property          | Type     | Description                                                        | Default           |
 | ----------------- |--------- |------------------------------------------------------------------- | ------------------|
 | `context`         | string   | Use context to pair `Draggable` and `Droppable` objects            |                   |
 | `dataKey`         | string   | Value that will be sent to the `Droppable.onDrop()` event callback |                   |
@@ -35,7 +35,7 @@ Wrap around any object that should be draggable.
 | `onDragEnd`       | function | Callback function for `onDragEnd` events (when dragging stops)     | `(dataKey) => {}` |
 
 ##### \<Droppable\> Component
-| Parameter         | Type     | Description                                                                                          | Default
+| Property          | Type     | Description                                                                                          | Default
 | ----------------- |--------- |----------------------------------------------------------------------------------------------------- | ---
 | `context`         | string   | Use context to pair `Draggable` and `Droppable` objects                                              | `null`
 | `disabled`        | boolean  | Set to `true` to disable functionality                                                               | `false`
