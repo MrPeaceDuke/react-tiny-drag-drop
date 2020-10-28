@@ -1,4 +1,4 @@
-# react-tiny-bbcode
+# react-tiny-drag-drop
 
 This aims to implement a simple, yet fully functional, drag and drop functionality for React.
 
