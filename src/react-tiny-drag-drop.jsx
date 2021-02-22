@@ -22,7 +22,7 @@ export function Draggable (props) {
       onDragEnd={() => {
         onDragEndFunc.function(props.dataKey);
 	  }}
-	  style={this.props.style}
+	  style={props.style}
     >
       {props.children}
     </div>
